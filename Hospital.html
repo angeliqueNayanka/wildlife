@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+
+    <style>
+        form{
+            width: 90%;
+            margin: 10px;
+            border: 5px solid black;
+            background-image: url("images/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        div{
+            padding: 10px;
+        }
+        .hospitalinput{
+            width: 50%;
+            padding: 10px 10px;
+            margin: 5px 0;
+
+        }
+    </style>
+</head>
+<body>
+<h1>Fill in the required information</h1>
+
+<form action="">
+    <div>
+        <label>First Name</label> <br>
+        <input class="hospitalinput" type="first name" name="firstname" id="firstname">
+    </div>
+    
+    <div>
+        <label>Second Name</label><br>
+        <input class="hospitalinput" type="secondname" name="secondname" id="secondname">
+    </div>
+
+    <div>
+        <label>Phone Number</label><br>
+        <input class="hospitalinput" type="tell">
+    </div>
+
+    <div>
+        <label>Date of birth</label><br>
+        <input class="hospitalinput" type="date">
+    </div>
+    
+    <div>
+        <label>Email Address</label><br>
+        <input class="hospitalinput" type="email"value="angelique@gmail.com">
+    </div>
+    
+    <div>
+        <label>Country</label><br>
+        <select class="hospitalinput" name="country" id="country">
+            <option value="kenya">Kenya</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="uganda">Uganda</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="somalia">Somalia</option>
+        </select>
+    </div>
+
+    <div>
+         <span class="otherspan">
+             <label>Disease</label>
+        <label>Hiv/AIDS</label>
+        <input type="checkbox"name="diseases"value="Hiv/AIDS">
+        <label>Malaria</label>
+        <input type="checkbox"name="diseases"value="Malaria">
+        <label>Insomnia</label>
+        <input type="checkbox"name="diseases"value="Insomnia">
+        <label>Diabetes</label>
+             <input type="checkbox"name="diseases"value="Diabetes">
+        </span>
+
+    </div>
+
+    <div>
+        <label>Type of insurance</label><br>
+        <input class="hospitalinput" type="card"placeholder="e.g NHIF">
+    </div>
+
+    <div>
+        <input class="hospitalinput" type="button" value="SUBMIT" onclick="alert(Thank you)">
+    </div>
+</form>
+
+</body>
+</html>
